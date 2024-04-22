@@ -1,3 +1,4 @@
+# # Imports that r necessary to install
 # pip install streamlit
 # pip install qrcode
 # pip install numpy
