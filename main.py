@@ -12,7 +12,15 @@ from PIL import Image
 import io
 
 # Function to load image from a URL or file uploader
+
 def load_image(image_file):
+    """
+    This function loads an image from a URL or file uploader.
+
+    :param image_file: The image file to be loaded.
+    :return: The loaded image.
+    """
+    
     img = Image.open(image_file)
     return img
 
