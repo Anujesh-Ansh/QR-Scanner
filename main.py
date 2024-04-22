@@ -16,7 +16,7 @@ def load_image(image_file):
     img = Image.open(image_file)
     return img
 
-
+# Function to convert image to OpenCV format
 def main():
     opencv_image = None
     menu = ["Home", "DecodeQR", "About"]
