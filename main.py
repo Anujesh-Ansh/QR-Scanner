@@ -20,12 +20,18 @@ def load_image(image_file):
     :param image_file: The image file to be loaded.
     :return: The loaded image.
     """
-    
+
     img = Image.open(image_file)
     return img
 
 # Main Function
 def main():
+
+    """
+    The main function that contains the main logic of the application.
+
+    """
+    
     opencv_image = None
     menu = ["Home", "DecodeQR", "About"]
 
