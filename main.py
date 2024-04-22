@@ -11,7 +11,7 @@ import cv2
 from PIL import Image
 import io
 
-
+# Function to load image from a URL or file uploader
 def load_image(image_file):
     img = Image.open(image_file)
     return img
